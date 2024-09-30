@@ -6,7 +6,7 @@
 </head>
 <body>
     <form action="/member/save" method="post">
-        <input type="text" name="memberEmail" placeholder="이메일" id="memberEmail" onblur="emailCheck()">
+        <input type="text" name="memberEmail" placeholder="이메일" id="memberEmail">
         <input type="text" name="memberPassword" placeholder="비밀번호">
         <input type="text" name="memberName" placeholder="이름">
         <input type="text" name="memberAge" placeholder="나이">
